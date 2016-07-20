@@ -30,6 +30,11 @@
 #include <typeinfo>
 #include <cassert>
 
+#define NOMINMAX
+
+#include <algorithm>
+
+
 using namespace std;
 
 namespace g2o {
